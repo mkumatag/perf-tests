@@ -21,7 +21,7 @@ spec:
       imagePullPolicy: Always
       containers:
         - name: access-tokens
-          image: gcr.io/k8s-testimages/perf-tests-util/access-tokens:v0.0.6
+          image: registry.k8s.io/perf-tests/perf-tests-util/access-tokens:v0.0.7
           args:
           {{range $tokenId := Loop .Tokens}}
             - --access-token-dirs=/var/tokens/{{$name}}-{{$tokenId}}

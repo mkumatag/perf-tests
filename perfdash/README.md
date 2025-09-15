@@ -36,7 +36,7 @@ Application server runs as a deployment on kubernetes cluster. It is hosted on
 
 ## Application images
 
-Images are stored in *gcr.io/k8s-testimages* project container registry.
+Images are stored in *registry.k8s.io/perf-tests* project container registry.
 
 
 ## Local development
